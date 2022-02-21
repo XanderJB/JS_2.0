@@ -147,7 +147,7 @@ h1, h2, h3, p, ul {
 
 .header-menu__list {
     display: flex;
-    align-items: center;
+    align-items: right;
 }
 
 .header-menu__item {
@@ -174,23 +174,12 @@ h1, h2, h3, p, ul {
 
 /* present */
 
-.present {
-    text-align: center;
-    padding-bottom: 90px;
-    padding-top: 30px;
-}
 
 .present__title {
     font-size: 72px;
     margin-bottom: 40px;
 }
 
-.present__description {
-    font-size: 36px;
-    line-height: 43px;
-    max-width: 865px;
-    margin: 0 auto 100px;
-}
 
 .present__img {
     max-width: 440px;
@@ -207,12 +196,7 @@ h1, h2, h3, p, ul {
         margin-bottom: 30px;
     }
 
-    .present__description {
-        font-size: 28px;
-        line-height: 32px;
-        max-width: 670px;
-    }
-
+  
     .present__img {
         max-width: 380px;
     }
@@ -223,12 +207,6 @@ h1, h2, h3, p, ul {
         font-size: 48px;
     }
 
-    .present__description {
-        font-size: 24px;
-        line-height: 28px;
-        max-width: 570px;
-        margin-bottom: 20px;
-    }
 
     .present__img {
         max-width: 300px;
@@ -240,11 +218,6 @@ h1, h2, h3, p, ul {
         font-size: 38px;
     }
 
-    .present__description {
-        font-size: 18px;
-        line-height: 24px;
-        max-width: 304px;
-    }
 
     .present__img {
         max-width: 280px;
